@@ -2,12 +2,12 @@ print(" choice format")
 print("1.leaderboard")
 print("2.knockout")
 print("3.leaderboard/knockout")
-print("4.league/knockout")
+#print("4.league/knockout")
 
 while True:
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3): ")
     
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('1', '2', '3'):
         if choice == '1':
             
             import pandas as pd
